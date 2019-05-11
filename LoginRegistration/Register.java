@@ -42,11 +42,11 @@ public class RegisterServlet extends HttpServlet {
 				RequestDispatcher rd = request.getRequestDispatcher("login.html");
 				rd.forward(request, response);
 			}else {
-				out.println("Already Exists");
-				RequestDispatcher rd = request.getRequestDispatcher("Register.html");
+				RequestDispatcher rd = request.getRequestDispatcher("register.html");
 				rd.include(request, response);
 			}
 		}catch(SQLException e) {
+			out.println("<h2>User already exists...</h2>");
 			e.printStackTrace();
 	}
 	}
