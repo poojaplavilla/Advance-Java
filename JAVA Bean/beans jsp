@@ -14,9 +14,6 @@
 Username= <jsp:getProperty property="username" name="user"/> <br>
 password= <jsp:getProperty property="password" name="user"/> <br>
 
-<jsp:forward page="xyz.jsp"/> 
-
-<jsp:include page="xyz.jsp"/> 
 
 </body>
 </html>
