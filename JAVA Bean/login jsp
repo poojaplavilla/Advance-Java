@@ -15,5 +15,10 @@
 <input type="password" name ="password" placeholder = "Enter password"/>
 <input type= "submit"  value= "submit">
 </form>
+
+<jsp:forward page="xyz.jsp"/> 
+
+<jsp:include page="xyz.jsp"/> 
+
 </body>
 </html>
